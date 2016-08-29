@@ -9,7 +9,7 @@ kafka = Kafka.new(
   client_id: "andrewjamesbrown",
   )
 
-while True
+while true
   kafka.deliver_message("Hello, World!", topic: "andrewjamesbrown")
   puts "Delivering kafka message...."
   sleep 1
