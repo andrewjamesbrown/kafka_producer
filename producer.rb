@@ -16,5 +16,5 @@ kafka = Kafka.new(
 while true
   kafka.deliver_message("Hello, World!", topic: "andrewjamesbrown")
   puts "Delivering kafka message...."
-  sleep 1
+  sleep 0.1
 end
